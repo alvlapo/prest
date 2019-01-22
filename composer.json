@@ -1,0 +1,24 @@
+{
+    "name": "alvlapo/prest",
+    "description": "Phalcon REST Library",
+    "version": "2.0.0",
+    "require": {
+        "php": ">=7.0",
+        "ext-phalcon": ">=3.0.0"
+    },
+    "suggest": {
+        "league/fractal": "^0.13.0",
+        "firebase/php-jwt": "^5.0"
+    },
+    "authors": [
+        {
+            "name": "alvlapo",
+            "email": "alvlapo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Prest\\": "src/Prest"
+        }
+    }
+}
